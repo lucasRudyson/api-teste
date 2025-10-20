@@ -7,4 +7,3 @@ from rh.serializers import PessoaSerializer
 class PessoaViewSet(viewsets.ModelViewSet):
     queryset = Pessoa.objects.all()
     serializer_class = PessoaSerializer
-    # permission_classes = [permissions.IsAuthenticated]
